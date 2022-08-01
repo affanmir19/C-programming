@@ -1,11 +1,13 @@
-//swapping two numbers
+//swapping two numbers and taking inputs from the user
 #include <stdio.h>
 int main()
 {
-    int x=4,y=5,temp;
-    temp=x;
-    x=y;
-    y=temp;
-    printf("%d",y);
+    int a,b,temp;
+    printf("Enter the value of a and b :");
+    scanf("%d%d",&a,&b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("The value of a is %d",a);
     return 0;
 }
